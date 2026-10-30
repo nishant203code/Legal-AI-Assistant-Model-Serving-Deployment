@@ -1,0 +1,45 @@
+name: legalai
+description: "AI-powered legal assistant for case summarization, clause classification, contract drafting, and legal Q&A."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.3.0
+  dash_chat_2: ^0.0.21
+  file_picker: ^10.1.2
+  provider: ^6.0.5
+  syncfusion_flutter_pdf: ^29.1.38
+  cupertino_icons: ^1.0.2  # Make sure this is only listed once
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/icon2.png" # path to your icon
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/home1-yellow.jpg
+    - assets/images/image.png
+    - assets/images/gift.jpg
+    - assets/images/clause.png
+    - assets/images/summary.png
+    - assets/images/contract.png
+    - assets/images/icon2.png
+    
+  
